@@ -1,2 +1,0 @@
-# JavaAcademy
-hola mundo :D
