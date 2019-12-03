@@ -1,0 +1,14 @@
+public class TieneVocalWhile{
+	public static void main(String[] args){
+		String cadena = args[0];
+		int i = 0;
+		do{
+			
+				if(cadena.charAt(i) == 'O' || cadena.charAt(i) == 'o'){
+				System.out.print("Tiene vocal");
+			}
+			i++
+		}while(i <= cadena.length);
+		}
+	}
+}
