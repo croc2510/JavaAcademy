@@ -1,11 +1,11 @@
-package ejercicio6;
+package ejercicio9;
 
 import java.sql.Connection;
 import java.sql.SQLException;
 
 import org.apache.commons.dbcp.BasicDataSource;
 
-public class MyDBData {
+public class Mydb {
 	private static BasicDataSource ds;
 
 	static {
@@ -19,7 +19,7 @@ public class MyDBData {
 		ds.setUrl("jdbc:mysql://localhost:3306/mydb");
 	}
 
-	private MyDBData() {
+	public Mydb() {
 
 	}
 
